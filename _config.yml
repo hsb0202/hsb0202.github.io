@@ -20,7 +20,7 @@ locale                   : "ko"
 title                    : "Bongki's Blog"
 title_separator          : "-"
 name                     : "Bongki"
-description              : "서버 및 웹 개발자 입니다."
+description              : "서버,웹 개발자 입니다."
 url                      : "https://hsb0202.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 #repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Bongki"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "서버&웹 개발자 입니다."
+  bio              : "서버,웹 개발자 입니다."
   location         : "South korea"
   email            :
   uri              :
