@@ -105,7 +105,7 @@ author:
   name             : "Bongki"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "서버&웹 개발자 입니다."
-  location         : "South Korea"
+  location         : "South korea"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
