@@ -2,7 +2,7 @@
 title: "테스트용 포스트 입니다."
 date : 2018-08-11 07:36:00 -400
 categories: 
-  - twice
+  - post
 ---
 
 
