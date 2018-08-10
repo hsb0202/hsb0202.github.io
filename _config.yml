@@ -15,14 +15,16 @@ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+#locale                   : "en-US"
+locale                   : "ko"
+title                    : "Bongki's 블로그"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
 url                      : "https://hsb0202.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+#repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "hsb0202/hsb0202.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
