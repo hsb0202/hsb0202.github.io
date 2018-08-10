@@ -16,8 +16,8 @@ haste_logo:
 - Java : :star2: :star2: :star2:
 - Python : :star2: :star2: :star2:
 - Scala : :star2:
-- Node.js : :star2: start2:
-- Angular : :star2: start2:
+- Node.js : :star2: :start2:
+- Angular : :star2: :start2:
 
 ## Expirence
  - ELK
@@ -28,6 +28,6 @@ haste_logo:
 ## Projects
   - NMS(Network Management System)
   - Mobile Wallet
-  - Telecommunications's Mobile Page
-  - IOT(Internet of thing)
+  - Telecommunications Mobile Page
+  - IoT(Internet Of Thing)
   
