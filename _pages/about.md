@@ -1,10 +1,6 @@
 ---
 permalink: /about/
 title: "About"
-haste_logo:
-  - url: /assets/images/toast_haste.png
-    image_path: /assets/images/toast_haste.png
-    alt: "TOAST Haste"
 ---
 
 ## Profile
