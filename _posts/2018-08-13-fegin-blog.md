@@ -9,7 +9,9 @@ categories: [MSA]
 
 
 #### fegin에서 hystrix 사용하기 (application.properties)
-``` feign.hystrix.enabled=true ```
+``` 
+feign.hystrix.enabled=true 
+```
 
 #### fegin에서 hystrix 사용하기 (어노테이션)
 ``` 
