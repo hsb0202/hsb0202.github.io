@@ -12,4 +12,12 @@ categories: [MSA]
 ``` feign.hystrix.enabled=true ```
 
 #### fegin에서 hystrix 사용하기 (어노테이션)
-``` @EnableCircuitBreaker ```
+``` 
+@EnableCircuitBreaker 
+public class GatewayApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(GatewayApplication.class, args);
+    }
+    이하 생략 
+}
+```
