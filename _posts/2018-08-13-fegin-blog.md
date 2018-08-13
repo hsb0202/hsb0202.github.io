@@ -8,12 +8,12 @@ categories: [MSA]
 
 
 
-#### fegin에서 hystrix 사용하기 (application.properties)
+* fegin에서 hystrix 사용하기 (application.properties)
 ``` 
 feign.hystrix.enabled=true 
 ```
 
-#### fegin에서 hystrix 사용하기 (어노테이션)
+* fegin에서 hystrix 사용하기 (어노테이션)
 ``` 
 @EnableCircuitBreaker 
 public class GatewayApplication {
