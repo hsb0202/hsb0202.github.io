@@ -95,7 +95,7 @@ output {
 - logstash 실행 
 
 ```
-bin/logstash -f first-pipeline.conf --config.test_and_exitor
+bin/logstash -f first-pipeline.conf --config.test_and_exit
 #  --config.test_and_exitor => config file에 에러가 있는지 리포트
 or
 bin/logstash -f first-pipeline.conf --config.reload.automatic
