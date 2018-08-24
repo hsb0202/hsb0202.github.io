@@ -12,8 +12,7 @@ categories: [Logstash, ELK]
 
 # 2. 개념
 
-DataSource -> INPUT|FILTER|OUTPUT -> Elastaticsearch
-
+``` DataSource -> INPUT|FILTER|OUTPUT -> Elastaticsearch ```
 
 - INPUT 
  : Source로 부터 데이터를 소비
@@ -23,10 +22,12 @@ DataSource -> INPUT|FILTER|OUTPUT -> Elastaticsearch
  : 목적지로 데이터를 전송
 
 예시
+
 ```
 cd logstash-6.4.0
 bin/logstash -e 'input { stdin { } } output { stdout {} }'
 ```
+
 > e 옵션은 Command라인상에 설정 정보를 추가하기 위함.
 
 
@@ -35,6 +36,7 @@ bin/logstash -e 'input { stdin { } } output { stdout {} }'
 ## 3.1 Filebeat 실행
 
 - 설정파일
+
 ```
 # filebeat.yml 
 # output을 logstash로 설정 
@@ -48,6 +50,7 @@ output.logstash:
 ```
 
 - filebeat 실행 
+
 ```
 sudo ./filebeat -e -c filebeat.yml -d "publish"
 ```
@@ -55,6 +58,7 @@ sudo ./filebeat -e -c filebeat.yml -d "publish"
 ## 3.2 Logstash 실행 
 
 - 설정 파일(기본값)
+
 ```
 # logstash.conf
 # The # character at the beginning of a line indicates a comment. Use
@@ -71,6 +75,7 @@ output {
 ```
 
 - 설정파일(변경후)
+
 ```
 input {
     beats {
@@ -88,6 +93,7 @@ output {
 ```
 
 - logstash 실행 
+
 ```
 bin/logstash -f first-pipeline.conf --config.test_and_exitor
 #  --config.test_and_exitor => config file에 에러가 있는지 리포트
