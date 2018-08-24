@@ -1,7 +1,9 @@
 
 ---
 title: "LogStash"
-categories: [ELK, Logstash]
+categories: 
+ - ELK
+ - Logstash
 ---
 
 #### Installing Logstash
