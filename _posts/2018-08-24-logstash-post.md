@@ -1,10 +1,10 @@
 
 ---
 title: "LogStash"
-categories: 
- - ELK
+categories:
  - Logstash
 ---
+
 
 #### Installing Logstash
 ```
