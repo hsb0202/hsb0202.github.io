@@ -4,13 +4,13 @@ categories: [Logstash, ELK]
 ---
 
 
-#### Installing Logstash
+# 1. Installing Logstash
 ```
 1. download & unzip 
 2. start up 
 ```
 
-#### 개념
+# 2. 개념
 
 DataSource -> INPUT|FILTER|OUTPUT -> Elastaticsearch
 
@@ -30,12 +30,15 @@ bin/logstash -e 'input { stdin { } } output { stdout {} }'
 > e 옵션은 Command라인상에 설정 정보를 추가하기 위함.
 
 
-#### Filebeat를 통한 테스트 
+# 3. 테스트
 
-#### 1. Filebeat 설정 
+## 3.1 Filebeat 실행
 
-- filebeat.yml 
+- 설정파일
 ```
+# filebeat.yml 
+# output을 logstash로 설정 
+
 filebeat.prospectors:
 - type: log
   paths:
@@ -44,17 +47,16 @@ output.logstash:
   hosts: ["localhost:5044"]
 ```
 
-- filebeat 실행 및 메시지 logstash에 메시지 전송 
+- filebeat 실행 
 ```
 sudo ./filebeat -e -c filebeat.yml -d "publish"
 ```
 
-#### 2. Logstash 설정 
+## 3.2 Logstash 실행 
 
-Logstash 설정파일(logstash.conf)
-
-- 기본 정보 
+- 설정 파일(기본값)
 ```
+# logstash.conf
 # The # character at the beginning of a line indicates a comment. Use
 # comments to describe your configuration.
 input {
@@ -68,7 +70,7 @@ output {
 }
 ```
 
-- 변경 후 
+- 설정파일(변경후)
 ```
 input {
     beats {
