@@ -1,8 +1,6 @@
-
 ---
 title: "LogStash"
-categories:
-  - Logstash
+categories: [Logstash, ELK]
 ---
 
 
