@@ -266,7 +266,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: splash #single
+      layout: single
       author_profile: true
       read_time: true
       comments: # true
