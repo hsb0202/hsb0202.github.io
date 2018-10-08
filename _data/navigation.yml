@@ -64,39 +64,26 @@ docs:
         url: /docs/javascript/
         
 prototype:
-  - title: Project Prototype
+  - title: 웹서비스 프로토타입
     children:
-      - title: "Quick-Start Guide"
+      - title: "프로젝트 구조"
         url: /docs/quick-start-guide/
-      - title: "Structure"
+      - title: "Core Module"
         url: /docs/structure/
-      - title: "Installation"
+      - title: "Admin Module"
         url: /docs/installation/
-      - title: "Upgrading"
+      - title: "Api Module"
+        url: /docs/upgrading/
+      - title: "Front Module"
         url: /docs/upgrading/
 
-  - title: Customization
+  - title: 데몬서비스 
     children:
-      - title: "Configuration"
+      - title: "Clone Batch Script"
         url: /docs/configuration/
-      - title: "Navigation"
+      - title: "Spring Batch"
         url: /docs/navigation/
-      - title: "UI Text"
+      - title: "Custom Daemon Process"
         url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
 
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
+  
