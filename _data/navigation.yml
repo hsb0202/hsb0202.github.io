@@ -6,6 +6,8 @@ main:
     url: /categories/list
   - title: "Posts"
     url: /year-archive
+  - title: "prototype"
+    url : /prototype/project-prototype
   - title: "About"
     url: /about
   - title: "Home"
