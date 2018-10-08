@@ -1,6 +1,6 @@
 ---
 title: "프로젝트 프로토타입"
-permalink: /prototype/project-prototype
+permalink: /prototype/project-prototype/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 redirect_from:
   - /theme-setup/
