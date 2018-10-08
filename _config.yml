@@ -196,7 +196,10 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-
+  prototype:
+    output: true
+    permalink: /:collection/:path/
+    
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -289,3 +292,16 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+        
+  # _prototype
+  - scope:
+      path: ""
+      type: prototype
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "prototype"
