@@ -63,7 +63,7 @@ docs:
       - title: "JavaScript"
         url: /docs/javascript/
         
-  prototype:
+prototype:
   - title: Project Prototype
     children:
       - title: "Quick-Start Guide"
