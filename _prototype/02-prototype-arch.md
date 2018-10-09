@@ -12,3 +12,9 @@ tags : [MSA]
 {: .notice--info}
 
 [<i class="fas fa-download"></i> Download Minimal Mistakes Theme](https://github.com/mmistakes/minimal-mistakes/archive/master.zip){: .btn .btn--success}
+
+| Parameter   | Required | Description | Default |
+| ---------   | -------- | ----------- | ------- |
+| **toc**     | Optional | Show table of contents. (boolean) | `false` |
+| **toc_label** | Optional | Table of contents title. (string) | `toc_label` in UI Text data file. |
+| **toc_icon**  | Optional | Table of contents icon, displays before the title. (string) | [Font Awesome](https://fontawesome.com/icons?d=gallery&s=solid&m=free) <i class="fas fa-file-alt"></i> **file-alt** icon. Other FA icons can be used instead. |
