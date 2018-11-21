@@ -104,5 +104,5 @@ bin/logstash -f first-pipeline.conf --config.reload.automatic
 # 참고 자료
 [mute처리](https://www.elastic.co/guide/en/logstash/current/plugins-filters-mutate.html "뮤트시키기") <br/>
 [jdbc 플러그인](https://discuss.elastic.co/t/jdbc-mssql-server-connection/44324/2 "jdbc플러그인") <br/>
-[jdbc 플러그인](https://medium.com/@erangadulshan.14/pushing-relational-data-to-elasticsearch-using-logstash-jdbc-input-plugin-48af81ed1000 "jdbc플러그인가이드")
-
+[jdbc 플러그인](https://medium.com/@erangadulshan.14/pushing-relational-data-to-elasticsearch-using-logstash-jdbc-input-plugin-48af81ed1000 "jdbc플러그인가이드")  <br/>
+[date변환](https://discuss.elastic.co/t/converting-string-to-date/26748/2 "convert string to date")  <br/>
