@@ -14,3 +14,7 @@ def printName(name):
   
 printName
 ```
+
+<figure class="video_container">
+<iframe src="http://xsage78.iptime.org:59102/app/kibana#/visualize/edit/79895c30-9351-11e9-bfba-7762fa8cbd21?embed=true&_g=()" height="600" width="800"></iframe>
+</figure>
